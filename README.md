@@ -1,4 +1,4 @@
-To get started with React Native development, follow these steps:
+#To get started with React Native development, follow these steps:
 
 1. **Install React Native CLI**: 
    Follow the instructions outlined [here](https://reactnative.dev/docs/environment-setup?os=windows).
