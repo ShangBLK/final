@@ -1,0 +1,13 @@
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import WelcomeScreen from '../screens/WelcomeScreen';
+
+const Tab = createBottomTabNavigator();
+
+export default function TabNavigation() {
+  return (
+    <Tab.Navigator>
+      <Tab.Screen name="Logout" component={WelcomeScreen} />
+     
+    </Tab.Navigator>
+  );
+}
